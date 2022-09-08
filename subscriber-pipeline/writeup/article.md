@@ -12,7 +12,7 @@ A fictional online education company `Cademycode` has a database of cancelled su
 
 ## The Process
 
-### Inspecting and Transforming the Dataset ([exploration notebook](https://github.com/Codecademy-Curriculum/Data-Engineering-Career-Path-Portfolio/blob/main/subscriber-pipeline/writeup/data_eng_cp_writeup.ipynb))
+### Inspecting and Transforming the Dataset ([exploration notebook](./data_eng_cp_writeup.ipynb))
 
 Several of the raw data tables had records with some missing data. Visualization indicated that most of the missing data was missing at random (MAR). Because this data was MAR and formed only a small percentage of the overall data, deletion seemed appropriate. Instead of fully deleting the missing rows, I separated the rows with missing data into their own table. This way, an analytics team can inspect the missing data themselves if they want, and we can keep track of how much data is missing as the cleaned database was updated.
 
