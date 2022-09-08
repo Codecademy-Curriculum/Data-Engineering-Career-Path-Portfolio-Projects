@@ -13,7 +13,7 @@ The pipeline
 - automatically checks and updates changelogs
 - updates a production database with new clean data
 
-Please see [writeup/article.md](./writeup/article.md) for an overview of the development process and [writeup/data_eng_cp_writeup.ipynb](./data_eng_cp_writeup.ipynb) for an exploratory Jupyter notebook.
+Please see [writeup/article.md](./writeup/article.md) for an overview of the development process and [writeup/data_eng_cp_writeup.ipynb](./writeup/data_eng_cp_writeup.ipynb) for an exploratory Jupyter notebook.
 
 ## Instructions
 
